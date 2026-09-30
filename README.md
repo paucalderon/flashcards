@@ -1,16 +1,71 @@
-# React + Vite
+# Adventure Time Trivia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: **Ana Calderon**
 
-Currently, two official plugins are available:
+This web app: **An interactive Adventure Time trivia flashcard game where users can click a card to reveal the answer and use the Next button to randomly view another trivia question.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Time spent: **3 hours spent in total**
 
-## React Compiler
+## Required Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The following **required** functionality is completed:
 
-## Expanding the ESLint configuration
+* [x] **The app displays a title describing the theme**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * [x] Header/title describing the theme is displayed
+* [x] **A card is displayed with a question and answer**
+
+  * [x] Only one side of the flashcard is displayed at a time
+  * [x] Clicking the card flips between the question and answer
+* [x] **A collection of at least 10 question/answer pairs is included**
+
+  * [x] The app contains 10 unique Adventure Time trivia questions
+* [x] **A button allows the user to view another card**
+
+  * [x] Clicking the Next button displays a randomly selected card
+
+The following **optional** features are implemented:
+
+* [x] **The site has a custom visual theme**
+
+  * [x] Adventure Time background image
+  * [x] Custom card and button styling
+  * [x] Rounded card and button designs
+* [x] **The app displays the total number of cards**
+
+  * [x] The number of available flashcards is displayed below the title
+
+The following **additional** features are implemented:
+
+* [x] Flashcards are selected randomly rather than displayed in sequential order
+* [x] The flashcard uses React `useState` to track its flipped state
+* [x] The flashcard content is stored in an array of question/answer objects
+* [x] The flashcard component uses props to display different questions and answers
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+<img src='adventuretimeflashcards.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
+
+## Notes
+
+One challenge I encountered was learning how to manage the flashcard's flipped state using React `useState`. I also had to implement random card selection so that clicking the Next button displays a randomly selected flashcard instead of moving through the cards sequentially. I used a separate `FlashCard` component with props for the question and answer to keep the flashcard reusable.
+
+## License
+
+Copyright 2026 Ana Calderon
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+```
+http://www.apache.org/licenses/LICENSE-2.0
+```
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
