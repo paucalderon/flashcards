@@ -1,4 +1,4 @@
-# Adventure Time Trivia
+# *Adventure Time Trivia*
 
 Submitted by: **Ana Calderon**
 
