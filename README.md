@@ -4,7 +4,7 @@ Submitted by: **Ana Calderon**
 
 This web app: **An interactive Adventure Time trivia flashcard game where users can test their knowledge by submitting guesses, flip cards to reveal answers, navigate through trivia questions, track answer streaks, and mark cards as mastered.**
 
-Time spent: **5 hours spent in total**
+Time spent: **8 hours spent in total**
 
 ## Required Features
 
